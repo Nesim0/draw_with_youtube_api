@@ -4,7 +4,7 @@ import random
 api_key = ''
 #Aranacak Kelime
 word = ''
-# YouTube API'sini build() fonksiyonuyla oluşturun
+
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 def get_video_comments(video_id):
@@ -31,7 +31,7 @@ video_id = ''
 # Yorumları al
 video_comments = get_video_comments(video_id)
 
-# Alınan yorumları ekrana yazdır
+
 # for author, comment in video_comments:
 #      print(f"Kullanıcı: {author} - Yorum: {comment}")
 
